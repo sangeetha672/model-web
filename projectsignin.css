@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Kanit,'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.bod{
+    background: linear-gradient(to bottom,rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.7)),url(photography.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 630px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav{
+    display: flex;
+    justify-content:flex-start;
+    background-color: rgb(27,28,32);
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+.nav p{
+    font-size: 30px;
+    margin-left: 10px;
+    color: white;
+}
+.close{
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: 900;
+    color: red;
+    border-radius: 50%;
+    text-align: center;
+    cursor: pointer;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    margin-left: 650px;
+}
+.content{
+    background-color: white;
+    width: 800px;
+    height: 500px;
+    box-shadow: 0px 0px 10px white;
+    border-radius: 10px;
+}
+.container1{
+    width: 800px;
+    height: 400px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.fb{
+    background-color: rgb(52,77,131);
+    color:white;
+    height: 50px;
+    width: 300px;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    font-size: 25px;
+    box-shadow: 0px 0px 10px rgb(52,77,131);
+}
+.welcome{
+    font-size:25px;
+    margin-top: -70px;
+    width: 300px;
+}
+input{
+    border: none;
+    outline: none;
+    box-shadow: 0px 0px 2px black;
+    border-radius: 2px;
+}
+.fname,.lname{
+    height: 40px;
+    width: 200px;
+}
+.username,.Mail,.Pswrd{
+    height: 40px;
+    margin-top: 10px;
+    width: 410px;
+}
+.lastbtn{
+    display: flex;
+    justify-content: center;
+}
+.sibtn{
+    background-color: rgb(65,156,69);
+    border: none;
+    outline: none;
+    border-radius: 7px;
+    height: 50px;
+    width: 100px;
+    color: white;
+    font-size: 20px;
+    margin-left: 100px;
+}
+.cancel{
+    background-color: red;
+    border: none;
+    outline: none;
+    border-radius: 7px;
+    height: 50px;
+    width: 100px;
+    color: white;
+    font-size: 20px;
+    margin-left: 50px;
+}
+.cancel a{
+    text-decoration: none;
+    color: white;
+}
